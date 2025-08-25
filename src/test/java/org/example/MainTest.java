@@ -6,15 +6,16 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
 
-        /* FizzBuzz
-        Regeln:
-        1. Zahl durch 3 teilbar gib "
-        2. Zahl durch 4 teilbar gib "
-        3. Zahl durch 5 teilbar gib "
-        4. Zahl durch 3 UND 5 teilbar gib "
-        5. Zahl WEDER durch 3 ODER 5 teilbar gib "
 
-         */
+    /* FizzBuzz
+           Regeln:
+           1. Zahl durch 3 teilbar gib " Fizz"
+           2. Zahl durch 5 teilbar gib " Buzz"
+           3. Zahl durch 3 UND 5 teilbar gib "FizzBuzz"
+           4. Zahl WEDER durch 3 ODER 5 teilbar gib Zahl zurück"
+           */
+
+    void fizzBuzz_should
 
     //RED  - GREEN - REFRACTOR
     @Test
@@ -26,7 +27,5 @@ class MainTest {
         String actual = Main.fizzBuzz(n);
         //then
         assertEquals(expected, actual);
-
-
     }
 }
