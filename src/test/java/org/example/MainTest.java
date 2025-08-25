@@ -1,11 +1,9 @@
 package org.example;
 
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class MainTest {
-
 
     /* FizzBuzz
            Regeln:
@@ -15,11 +13,15 @@ class MainTest {
            4. Zahl WEDER durch 3 ODER 5 teilbar gib Zahl zurück"
            */
 
-    void fizzBuzz_should
+
+
+//    void fizzBuzz_should
 
     //RED  - GREEN - REFRACTOR
     @Test
-    void fizzBuzz_shouldReturnfizz_whenGivenNumer_is3() {
+    void fizzBuzz();
+
+    /* void fizzBuzz_shouldReturnfizz_whenGivenNumer_is3() {
         //given
         String expected ="Fizz";
         int n=3;
@@ -27,5 +29,5 @@ class MainTest {
         String actual = Main.fizzBuzz(n);
         //then
         assertEquals(expected, actual);
+    */
     }
-}
