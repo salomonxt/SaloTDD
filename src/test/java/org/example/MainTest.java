@@ -13,9 +13,6 @@ class MainTest {
            4. Zahl WEDER durch 3 ODER 5 teilbar gib Zahl zurück"
         */
 
-
-    //RED  - GREEN - REFRACTOR
-
     //RED  - GREEN - REFRACTOR
     @Test
     void fizzBuzz_shouldreturnFizz_whennumberis3()  {
@@ -55,6 +52,4 @@ class MainTest {
         assertEquals(expected, actual);
 
     }
-
-
-    }
+}
