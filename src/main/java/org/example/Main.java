@@ -2,6 +2,10 @@ package org.example;
 
 public class Main {
 
+
+
+
+
         /* FizzBuzz
         Regeln:
         1. Zahl durch 3 teilbar gib " Fizz"
@@ -13,5 +17,8 @@ public class Main {
         public static String fizzBuzz(int n) {
            return "Fizz";
         }
+
+
+
 
     }
